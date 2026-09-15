@@ -59,11 +59,13 @@ Product catalog with real-time stock, purchase price, and landed cost — every 
 
 ---
 
+
+
 ## 6. Customers
 
 Customer registry with live balance, phone, and address — plus one-click itemized statements and payment recording.
 
-![Customers](PASTE_CUSTOMERS_LINK)
+![Customers](https://github.com/user-attachments/assets/6412eb09-5776-4e4e-956e-f6dfbfcdb30b)
 
 ---
 
@@ -71,47 +73,52 @@ Customer registry with live balance, phone, and address — plus one-click itemi
 
 Transit shipment management with route tracking (origin → destination), 9-stage status lifecycle, and shipment expenses auto-posted to the journal.
 
-![Shipments](PASTE_SHIPMENTS_LINK)
+![Shipments](https://github.com/user-attachments/assets/a7fac837-ba17-47e5-963b-a82049697164)
 
 ---
+
 
 ## 8. General Ledger
 
 Chronological journal of every financial event — documents, references, credit/debit columns, and running balance with summary bar.
 
-![General Ledger](PASTE_LEDGER_LINK)
+![General Ledger](https://github.com/user-attachments/assets/4aa0b060-d79b-4826-9842-307f1bdad079)
 
 ---
+
 
 ## 9. Reports
 
 Profit & Loss report with revenue, COGS, gross/net profit, customer balance table, and trend charts — with Excel export and custom date ranges.
 
-![Reports](PASTE_REPORTS_LINK)
+![Reports](https://github.com/user-attachments/assets/07f84cb8-28fa-4b1c-a72d-8f576f59bcfc)
 
 ---
+
 
 ## 10. Accounts
 
 Cash and bank account management with receipts/payments in any currency — balances, customer receivables, and the journal stay in sync automatically.
 
-![Accounts](PASTE_ACCOUNTS_LINK)
+![Accounts](https://github.com/user-attachments/assets/d657ffbb-0eee-4fa0-8b63-fd3b8fd82d2d)
 
 ---
+
 
 ## 11. Personal Expenses
 
 Daily personal expense tracking with categories — automatically reflected in cash accounts and reports.
 
-![Personal Expenses](PASTE_PERSONAL_EXPENSES_LINK)
+![Personal Expenses](https://github.com/user-attachments/assets/3f7a9750-3f81-44bd-aa45-b2dc46026aab)
 
 ---
+
 
 ## 12. Settings
 
 Company profile for invoice headers, exchange-rate management, **database backup/restore**, and password change.
 
-![Settings](PASTE_SETTINGS_LINK)
+![Settings](https://github.com/user-attachments/assets/45fa14fa-f138-4868-9a07-4701c443577e)
 
 ---
 
