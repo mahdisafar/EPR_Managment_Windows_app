@@ -29,8 +29,6 @@ Financial overview at a glance: income, external expenses, total receivables, an
 
 ---
 
-
-
 ## 2. Sales Invoice
 
 Multi-item sale invoices with customer selection, live totals, in-app print preview, and standard PDF generation. Stock and customer balances update automatically on submit.
@@ -40,7 +38,6 @@ Multi-item sale invoices with customer selection, live totals, in-app print prev
 &lt;/p&gt;
 
 ---
-
 
 ## 3. Purchase Invoice
 
@@ -52,7 +49,6 @@ Purchase invoices with side costs (freight / customs / loading) that feed direct
 
 ---
 
-
 ## 4. Invoice List
 
 Searchable, filterable list of all sales and purchase invoices with per-row **print/PDF** buttons, running totals, and Excel export.
@@ -62,7 +58,6 @@ Searchable, filterable list of all sales and purchase invoices with per-row **pr
 &lt;/p&gt;
 
 ---
-
 
 ## 5. Inventory
 
