@@ -23,9 +23,7 @@ A complete offline-first **Accounting & Financial Management System** for **Wind
 
 Financial overview at a glance: income, external expenses, total receivables, and net profit — with an interactive 6-month chart and quick-action shortcuts.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1003" alt="dashboard" src="https://github.com/user-attachments/assets/ce0b6022-20a4-4494-90b7-98cf7fe429d4" /&gt;
-&lt;/p&gt;
+![Dashboard](https://github.com/user-attachments/assets/ce0b6022-20a4-4494-90b7-98cf7fe429d4)
 
 ---
 
@@ -33,9 +31,7 @@ Financial overview at a glance: income, external expenses, total receivables, an
 
 Multi-item sale invoices with customer selection, live totals, in-app print preview, and standard PDF generation. Stock and customer balances update automatically on submit.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1006" alt="sale-invoice" src="https://github.com/user-attachments/assets/67ef122f-2fe4-4ae7-b5c8-f00552199203" /&gt;
-&lt;/p&gt;
+![Sale Invoice](https://github.com/user-attachments/assets/67ef122f-2fe4-4ae7-b5c8-f00552199203)
 
 ---
 
@@ -43,9 +39,7 @@ Multi-item sale invoices with customer selection, live totals, in-app print prev
 
 Purchase invoices with side costs (freight / customs / loading) that feed directly into **landed-cost** calculation, plus supplier name tracking.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1002" alt="purchase-invoice" src="https://github.com/user-attachments/assets/3d179bc7-cbef-4367-a8e3-be4c4abe3d8f" /&gt;
-&lt;/p&gt;
+![Purchase Invoice](https://github.com/user-attachments/assets/3d179bc7-cbef-4367-a8e3-be4c4abe3d8f)
 
 ---
 
@@ -53,9 +47,7 @@ Purchase invoices with side costs (freight / customs / loading) that feed direct
 
 Searchable, filterable list of all sales and purchase invoices with per-row **print/PDF** buttons, running totals, and Excel export.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1006" alt="invoices" src="https://github.com/user-attachments/assets/f2db4653-e04b-4c06-9539-5bc677b0ec7c" /&gt;
-&lt;/p&gt;
+![Invoice List](https://github.com/user-attachments/assets/f2db4653-e04b-4c06-9539-5bc677b0ec7c)
 
 ---
 
@@ -63,9 +55,7 @@ Searchable, filterable list of all sales and purchase invoices with per-row **pr
 
 Product catalog with real-time stock, purchase price, and landed cost — every sale and purchase updates stock automatically.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1002" alt="inventory" src="https://github.com/user-attachments/assets/78943d40-8407-402d-b742-c9203615aa3e" /&gt;
-&lt;/p&gt;
+![Inventory](https://github.com/user-attachments/assets/78943d40-8407-402d-b742-c9203615aa3e)
 
 ---
 
@@ -73,9 +63,7 @@ Product catalog with real-time stock, purchase price, and landed cost — every 
 
 Customer registry with live balance, phone, and address — plus one-click itemized statements and payment recording.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1001" alt="customers" src="PASTE_CUSTOMERS_LINK" /&gt;
-&lt;/p&gt;
+![Customers](PASTE_CUSTOMERS_LINK)
 
 ---
 
@@ -83,9 +71,7 @@ Customer registry with live balance, phone, and address — plus one-click itemi
 
 Transit shipment management with route tracking (origin → destination), 9-stage status lifecycle, and shipment expenses auto-posted to the journal.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1006" alt="shipments" src="PASTE_SHIPMENTS_LINK" /&gt;
-&lt;/p&gt;
+![Shipments](PASTE_SHIPMENTS_LINK)
 
 ---
 
@@ -93,9 +79,7 @@ Transit shipment management with route tracking (origin → destination), 9-stag
 
 Chronological journal of every financial event — documents, references, credit/debit columns, and running balance with summary bar.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1006" alt="ledger" src="PASTE_LEDGER_LINK" /&gt;
-&lt;/p&gt;
+![General Ledger](PASTE_LEDGER_LINK)
 
 ---
 
@@ -103,9 +87,7 @@ Chronological journal of every financial event — documents, references, credit
 
 Profit & Loss report with revenue, COGS, gross/net profit, customer balance table, and trend charts — with Excel export and custom date ranges.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1000" alt="reports" src="PASTE_REPORTS_LINK" /&gt;
-&lt;/p&gt;
+![Reports](PASTE_REPORTS_LINK)
 
 ---
 
@@ -113,9 +95,7 @@ Profit & Loss report with revenue, COGS, gross/net profit, customer balance tabl
 
 Cash and bank account management with receipts/payments in any currency — balances, customer receivables, and the journal stay in sync automatically.
 
-&lt;p align="center"&gt;
-  &lt;img width="1919" height="1002" alt="accounts" src="PASTE_ACCOUNTS_LINK" /&gt;
-&lt;/p&gt;
+![Accounts](PASTE_ACCOUNTS_LINK)
 
 ---
 
@@ -123,9 +103,7 @@ Cash and bank account management with receipts/payments in any currency — bala
 
 Daily personal expense tracking with categories — automatically reflected in cash accounts and reports.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1004" alt="personal-expenses" src="PASTE_PERSONAL_EXPENSES_LINK" /&gt;
-&lt;/p&gt;
+![Personal Expenses](PASTE_PERSONAL_EXPENSES_LINK)
 
 ---
 
@@ -133,9 +111,7 @@ Daily personal expense tracking with categories — automatically reflected in c
 
 Company profile for invoice headers, exchange-rate management, **database backup/restore**, and password change.
 
-&lt;p align="center"&gt;
-  &lt;img width="1920" height="1005" alt="settings" src="PASTE_SETTINGS_LINK" /&gt;
-&lt;/p&gt;
+![Settings](PASTE_SETTINGS_LINK)
 
 ---
 
