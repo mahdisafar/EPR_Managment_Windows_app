@@ -1,0 +1,102 @@
+name: eprwindowsapp
+description: "Desktop ERP and Accounting Management System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # --- State Management & Architecture ---
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  bloc_concurrency: ^0.2.5
+  equatable: ^2.0.5
+  get_it: ^8.0.3
+  injectable: ^2.5.1
+
+
+  # --- Routing ---
+  go_router: ^14.2.0
+
+  # --- Local Database & File System ---
+  path: ^1.9.0
+  path_provider: ^2.1.3
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.4+1
+
+  # --- Utilities & Helpers ---
+  intl: ^0.19.0
+  collection: ^1.19.1
+  flutter_dotenv: ^5.1.0
+  crypto: ^3.0.5          # برای هش رمز عبور
+  printing: ^5.13.3       # چاپ + پیش‌نمایش + انتخاب پرینتر
+  pdf: ^3.11.1            # ساخت PDF فاکتور
+  excel: ^4.0.6           # خروجی Excel
+  shamsi_date: ^1.0.1
+  file_selector: ^1.0.3
+  fl_chart: ^0.68.0      # نمودار
+
+  # --- Network & API ---
+  dio: ^5.5.0+1
+
+  # --- UI & Components ---
+  loading_animation_widget: ^1.2.1
+  lottie: ^3.1.2
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  injectable_generator: ^2.9.0
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.5
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/config.env
+
+  fonts:
+    - family: Samim
+      fonts:
+        - asset: assets/fonts/Samim-WOL.ttf
+        - asset: assets/fonts/Samim-Bold-WOL.ttf
+          weight: 700
+
+    - family: BYekan
+      fonts:
+        - asset: assets/fonts/BYekan+.ttf
+          weight: 500
+        - asset: "assets/fonts/BYekan+ Bold.ttf"
+          weight: 700
+
+    - family: Lalezar
+      fonts:
+        - asset: assets/fonts/Lalezar-Regular.ttf
+
+    - family: IranYekan
+      fonts:
+        - asset: "assets/fonts/Qs_Iranyekan thin.ttf"
+          weight: 100
+        - asset: "assets/fonts/Qs_Iranyekan light.ttf"
+          weight: 300
+        - asset: assets/fonts/Qs_Iranyekan.ttf
+          weight: 400
+        - asset: "assets/fonts/Qs_Iranyekan medium.ttf"
+          weight: 500
+        - asset: "assets/fonts/Qs_Iranyekan bold.ttf"
+          weight: 700
+        - asset: "assets/fonts/Qs_Iranyekan extrabold.ttf"
+          weight: 800
+        - asset: "assets/fonts/Qs_Iranyekan black.ttf"
+          weight: 900
