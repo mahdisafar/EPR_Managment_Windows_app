@@ -105,7 +105,8 @@ class DatabaseHelper {
         ${TableConstants.colLandedCost} REAL DEFAULT 0.0
       )
     ''');
-
+// TODO: think about replacing referenceType/referenceId with real FK tables
+// (one per type) so the db can actually check the ids instead of us
     await db.execute('''
       CREATE TABLE ${TableConstants.transactionsTable} (
         ${TableConstants.columnId} TEXT PRIMARY KEY,

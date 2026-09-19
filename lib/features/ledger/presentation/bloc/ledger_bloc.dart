@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:injectable/injectable.dart';
-import 'package:eprwindowsapp/core/domain/usecase/delete_transaction_usecase.dart';
+
 import '../../../../core/models/transaction_model.dart';
 import 'package:eprwindowsapp/config/enum.dart';
 import '../../domain/usecases/get_general_ledger_usecase.dart';
@@ -12,14 +12,11 @@ part 'ledger_state.dart';
 @injectable
 class LedgerBloc extends Bloc<LedgerEvent, LedgerState> {
   final GetGeneralLedgerUseCase getGeneralLedgerUseCase;
-  final DeleteTransactionUseCase deleteTransactionUseCase;
 
   LedgerBloc({
     required this.getGeneralLedgerUseCase,
-    required this.deleteTransactionUseCase,
   }) : super(LedgerInitialState()) {
     on<FetchLedgerTransactionsEvent>(_onFetchTransactions);
-    on<DeleteLedgerTransactionEvent>(_onDeleteTransaction);
   }
 
   Future<void> _onFetchTransactions(
@@ -85,17 +82,5 @@ class LedgerBloc extends Bloc<LedgerEvent, LedgerState> {
     } catch (e) {
       emit(LedgerErrorState("خطا در بارگذاری دفتر روزنامه: ${e.toString()}"));
     }
-  }
-
-  Future<void> _onDeleteTransaction(
-    DeleteLedgerTransactionEvent event,
-    Emitter<LedgerState> emit,
-  ) async {
-    final result = await deleteTransactionUseCase(event.transactionId);
-
-    await result.fold(
-      (failure) async => emit(LedgerErrorState(failure.message)),
-      (_) async => add(const FetchLedgerTransactionsEvent()),
-    );
   }
 }

@@ -64,14 +64,4 @@ class TransactionRepositoryImpl implements TransactionRepository {
       throw Exception('خطا در محاسبه خلاصه آمار مالی: $e');
     }
   }
-
-  @override
-  Future<Either<Failure, Unit>> deleteTransaction(String id) async {
-    try {
-      await localDataSource.deleteTransaction(id);
-      return const Right(unit);
-    } catch (e) {
-      return Left(DatabaseFailure('خطا در حذف سند: $e'));
-    }
-  }
 }

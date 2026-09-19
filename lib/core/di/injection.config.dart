@@ -113,7 +113,6 @@ import '../domain/repositories/account_repository.dart' as _i64;
 import '../domain/repositories/auth_repository.dart' as _i800;
 import '../domain/repositories/transaction_repository.dart' as _i118;
 import '../domain/usecase/add_transaction_usecase.dart' as _i242;
-import '../domain/usecase/delete_transaction_usecase.dart' as _i34;
 import '../domain/usecase/get_all_accounts_usecase.dart' as _i232;
 import '../domain/usecase/get_all_customers_use_case.dart' as _i74;
 import '../domain/usecase/get_all_invoices_usecase.dart' as _i235;
@@ -227,8 +226,6 @@ extension GetItInjectableX on _i174.GetIt {
         () => _i235.GetAllInvoicesUseCase(gh<_i339.InvoiceRepository>()));
     gh.lazySingleton<_i242.AddTransactionUseCase>(
         () => _i242.AddTransactionUseCase(gh<_i118.TransactionRepository>()));
-    gh.lazySingleton<_i34.DeleteTransactionUseCase>(
-        () => _i34.DeleteTransactionUseCase(gh<_i118.TransactionRepository>()));
     gh.lazySingleton<_i540.GetAllTransactionsUseCase>(() =>
         _i540.GetAllTransactionsUseCase(gh<_i118.TransactionRepository>()));
     gh.lazySingleton<_i460.GetFinancialSummaryUseCase>(() =>
@@ -267,6 +264,8 @@ extension GetItInjectableX on _i174.GetIt {
         () => _i234.AddProductUseCase(gh<_i422.InventoryRepository>()));
     gh.lazySingleton<_i590.GetAllProductsUseCase>(
         () => _i590.GetAllProductsUseCase(gh<_i422.InventoryRepository>()));
+    gh.factory<_i1062.LedgerBloc>(() => _i1062.LedgerBloc(
+        getGeneralLedgerUseCase: gh<_i787.GetGeneralLedgerUseCase>()));
     gh.lazySingleton<_i74.GetAllCustomersUseCase>(
         () => _i74.GetAllCustomersUseCase(gh<_i547.CustomerRepository>()));
     gh.lazySingleton<_i379.AddCustomerUseCase>(
@@ -275,10 +274,6 @@ extension GetItInjectableX on _i174.GetIt {
         _i256.GetCustomerStatementUseCase(gh<_i547.CustomerRepository>()));
     gh.lazySingleton<_i985.RecordCustomerPaymentUseCase>(() =>
         _i985.RecordCustomerPaymentUseCase(gh<_i547.CustomerRepository>()));
-    gh.factory<_i1062.LedgerBloc>(() => _i1062.LedgerBloc(
-          getGeneralLedgerUseCase: gh<_i787.GetGeneralLedgerUseCase>(),
-          deleteTransactionUseCase: gh<_i34.DeleteTransactionUseCase>(),
-        ));
     gh.factory<_i554.ReportsBloc>(() => _i554.ReportsBloc(
           getProfitAndLossUseCase: gh<_i1054.GetProfitAndLossUseCase>(),
           getFinancialSummaryUseCase: gh<_i460.GetFinancialSummaryUseCase>(),

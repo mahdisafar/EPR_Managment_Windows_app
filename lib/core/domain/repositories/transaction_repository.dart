@@ -18,5 +18,4 @@ abstract class TransactionRepository {
 
   Future<Map<String, double>> getFinancialSummary(
       {DateTime? startDate, DateTime? endDate});
-  Future<Either<Failure, Unit>> deleteTransaction(String id);
 }

@@ -14,7 +14,7 @@ abstract class TransactionLocalDataSource {
   Future<List<TransactionModel>> getTransactionsByCustomerId(String customerId);
   Future<Map<String, double>> getFinancialSummary(
       {DateTime? startDate, DateTime? endDate});
-  Future<void> deleteTransaction(String id);
+//  Future<void> deleteTransaction(String id);
 }
 
 @LazySingleton(as: TransactionLocalDataSource)
